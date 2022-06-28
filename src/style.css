@@ -1,135 +1,170 @@
 body{
     text-align: center;
-    background-color: rgb(182, 204, 226);
+    background-color: #1abcc2;
 }
  :root {
      --box-shadow: 8px 12px 30px rgba(0, 0, 0, 0.2);
      --color: #0761c7;
      --primary-color: #88898b;
  }
- @media (max-width :600px) {
-     body {
-         text-align: center;
-     }
-     h1 {
-         font-size: 58px;
-     }
-     h2 {
-         font-size: 25px;
-     }
-     h3 {
-         font-size: 20px;
-     }
- }
- @media (min-width: 1111px) {
-     body {
-         text-align: center;
-     }
- }
  h1 {
-     font-size: 66px;
+     font-size: 76px;
      font-family: 'The Nautigal',
-        cursive;
+         cursive;
  }
  h2 {
      font-size: 46px;
      font-family: poppin;
      color: rgb(107, 105, 105);
  }
-h3{
-    font-family: poppin;
-    font-size: 32px;
-}
-h4 {
-    font-size: 56px;
-    text-align: center;
-    font-family: 'IBM Plex Sans',
-        sans-serif;
-    font-weight: bold;
-}
-h5 {
-    border: 3px solid var(--primary-color);
-    text-align: center;
-    padding: 15px;
-    font-size: 30px;
-    border-radius: 16px;
-    font-family: poppin;
-    background-color: rgb(46, 45, 45);
-    color: white;
-}
-h6 {
-    border: 3px solid var(--primary-color);
-    font-family: poppin;
-    text-align: center;
-    padding: 15px;
-    font-size: 30px;
-    border-radius: 16px;
-    background-color: rgb(46, 45, 45);
-    color: white;
-}
+ h3 {
+     font-family: poppin;
+     font-size: 32px;
+ }
+ h4 {
+     font-size: 56px;
+     text-align: center;
+     font-family: 'IBM Plex Sans',
+         sans-serif;
+     font-weight: bold;
+ }
+ h5 {
+     border: 3px solid var(--primary-color);
+     text-align: center;
+     padding: 15px;
+     font-size: 30px;
+     border-radius: 16px;
+     font-family: poppin;
+     background-color: rgb(46, 45, 45);
+     color: white;
+ }
+ h6 {
+     border: 3px solid var(--primary-color);
+     font-family: poppin;
+     text-align: center;
+     padding: 15px;
+     font-size: 30px;
+     border-radius: 16px;
+     background-color: rgb(46, 45, 45);
+     color: white;
+ }
  p {
      text-align: center;
      padding-top: 10px;
      font-family: poppins;
      font-size: 18px;
  }
-.contact{
-    padding: 16px ;
-    border-radius: 4px;
-    border-color: rgb(102, 102, 138);
-    background-color: rgb(46, 45, 45) ;
-  }
-.myphoto{
-      border-radius: 100px;
-  }
-.primary-link {
-      border-radius: 4px;
-      margin-top: 2px;
-      padding: 10px 15px;
-      text-decoration: none;
-      text-transform: capitalize;
-      background: var(--primary-color);
-      box-shadow: var(--box-shadow);
-      color: rgb(14, 13, 13);
-  }
-.my-email{
-    text-decoration: underline;
+ .contact {
+     padding: 16px;
+     border-radius: 4px;
+     border-color: rgb(102, 102, 138);
+     background-color: rgb(46, 45, 45);
+ }
+ .myphoto {
+     border-radius: 100px;
+ }
+ .primary-link {
+     border-radius: 4px;
+     margin-top: 2px;
+     padding: 10px 15px;
+     text-decoration: none;
+     text-transform: capitalize;
+     background: var(--primary-color);
+     box-shadow: var(--box-shadow);
+     color: rgb(14, 13, 13);
+ }
+ .my-email {
+     text-decoration: underline;
+ }
+ .about-me {
+     display: flex;
+     justify-content: space-evenly;
+     flex: 1;
+     font-size: 18px;
+     text-align: justify;
+ }
+ .main-sentence p {
+     text-align: center;
+     font-size: 52px;
+     font-family: kanit;
+ }
+ footer {
+     margin: 60px;
+ }
+ footer.contact-box {
+     padding: 30px 120px;
+     border-radius: 10px;
+ }
+ footer .contact-box h4 {
+     font-size: 42px;
+     }
+  footer .social-link a {
+     font-size: 24px;
+     margin: 0 30px;
+     padding: 10px 14px;
+     border-radius: 50%;
+     transition: all 100ms ease-in-out;
+ }
+ .contact-box{
+     border:1px solid #a3dbdb ;
+     background-color: #a3dbdb ;
+     padding: 0px;
+     margin: 0px;
+ }
+ footer .social-link a:hover {
+     color: rgb(59, 58, 58);
+     background: rgb(182, 204, 226);
+ }
+ @media (max-width :700px) {
+     body {
+         text-align: center;
+     }
+     .about-me p {
+             font-size: 8px;
+             text-align: center;
+         }
+        h3 {
+         font-size: 20px;
+        text-align: center;
+     }
+          h1 {
+              font-size: 46px;
+            text-align: center;
+          }
+          h2 {
+              font-size: 26px;
+            text-align: center;
+          }
+          h4{
+              font-size: 22px;
+              text-align: center;
+          }
+          h5{
+              font-size: 15px;
+              text-align: center;
+          }
+          h6{
+              font-size: 15px;
+            text-align: center;
+          }
+          p{
+              font-size: 12px;
+              text-align: center;
+          }
+          img{
+              width: 120px;
+             
+          }
+     .myphoto{
+         width: 140px;
+         height: 200px;
+     }
+          .main-sentence p {
+              font-size: 18px;
+              text-align: center;
+ }
 }
-.about-me {
-    display: flex;
-    justify-content: space-evenly;
-    flex: 1;
-    font-size: 18px;
-    text-align: justify;
-   }
-   .main-sentence{
-       text-align: center;
-       font-size: 52px;
-       font-family:kanit;
-   }
-   footer{
-       margin: 60px ;
-   }
-   footer.contact-box{
-       background: var(--primary-color);
-       padding: 30px 120px;
-       border-radius: 10px;
-   }
-   footer .contact-box h4{
-       font-size: 42px;
-   }
-   footer .social-link a {
-       font-size: 24px;
-       margin: 0 30px;
-       padding: 10px 14px;
-       border-radius: 50%;
-       transition: all 100ms ease-in-out;
-       background: #9fa6b3;
-}
-footer .social-link a:hover{
-    color :rgb(59, 58, 58);
-    background: rgb(182, 204, 226);
-}
-
+ 
+ 
 
              
